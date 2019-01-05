@@ -48,3 +48,13 @@
     border-radius: 50%;
     border: 30px solid white;
 }
+
+.container{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.col-5{
+    padding-left: 50px;
+    padding-right: 50px;
+}
