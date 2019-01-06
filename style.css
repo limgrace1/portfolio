@@ -39,6 +39,7 @@
 
 .about-contacts {
     text-align: center;
+    padding-top: 50px;
 }
 
 .myphoto {
@@ -49,12 +50,14 @@
     border: 30px solid white;
 }
 
-.container{
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.col-5{
+.col-md-5 {
+    padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.row-two {
+    padding-bottom: 50px;
+}
+/* MEDIA QUERY */
+
