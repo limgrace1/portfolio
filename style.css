@@ -1,28 +1,85 @@
+/*  NAVBAR  */
+
 .navbar {
     height: 15%;
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
     background-color: white;
     color: black;
-   }
-
-.navbar-nav {
-    float: right;
+    margin-top: 0px;
 }
 
-.jumbotron {
+.nav-item {
+    padding: 15px;
+    color: black;
+}
+
+img.navbar-brand {
+    display: block;
+    margin: 0px auto;
+}
+
+img.logo {
+    width: 105px;
+    height: 90px;
+}
+
+
+/* JUMBOTRON */
+
+.intro {
     margin-bottom: 20px;
     height: 550px;
     color: black;
     background-color: white;
-    padding-top: 120px;
+    align-content: center;
+}
+
+.d-block { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 550px;
+    height: 550px;
+}
+
+.col-md-6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
-.lead {
-    margin-top: 30px;
-    font-size: 20px;
 
+.jumbotext {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: lowercase;
+    font-size: 15pt;
+}
+
+@media screen and (max-width: 600px) {
+    img.d-block {
+      width:  350px;
+      height: 350px;
+    }
+    .jumbotext {
+        font-size: 30%;
+        padding-right: 0px;
+        text-align: center;
+        justify-content: center;
+        }
+  }
+
+.caption {
+    font-size: 18px;
+    font-family: futura pt;
+    font-weight: 400;
+    font-style: normal;
+    color: darkgrey;
+    text-transform: uppercase;
 }
 
 .btn {
@@ -31,10 +88,27 @@
     font-weight: 500;
     color: white;
     border: #008FC6;
+    background-color: #D16300;
+    padding: 7px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-style: normal;
+    text-transform: uppercase;
+
 }
 
-.myWork {
+/* MY PROJECTS */
+
+
+.projects {
     text-align: center;
+    margin-top: 50px;
+    font-family: futura pt;
+    font-weight: 400%;
 }
 
 .about-contacts {

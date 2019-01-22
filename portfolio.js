@@ -2,6 +2,9 @@
 
 // Scroll Reveal //
 
+ScrollReveal().reveal('.display-4');
+
+
 (function scrollReveal() {
     window.sr = ScrollReveal();
     

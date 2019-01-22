@@ -17,36 +17,68 @@
  <!-- Style CSS -->
  <link rel="stylesheet" href="style.css">
 
+ <!-- Adobe Fonts -->
+ <link rel="stylesheet" href="https://use.typekit.net/qur6ipx.css">
+
+
 </head>
 
 <body>
 
 <!-- NAV BAR -->
+<div class="navbar">
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">
-      <img src="../portfolio/images/logo.png" width="105" height="85" alt></a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Work <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-          </div>
+  <a class="navbar-brand" href="#home">
+      <img src="../portfolio/images/logo.png" class="navbar-brand logo" alt></a>
+        
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" style="color: black" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" style="color: black" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" style="color: black" href="#signup">Contact</a>
+            </li>
+            </ul>
         </div>
-      </nav>
+  </nav>
+</div>
 
 
 <!-- JUMBOTRON -->
-<div class="jumbotron">
-    <h1 class="display-4">Welcome to Grace Lim!</h1>
-    <p class="lead">UX/UI DESIGNER</p>
-    <a class="btn btn-primary btn-lg" href="#myWork" role="button">View my Work</a>
+<div class="intro">
+  <div class="row align-items-center justify-content-center">
+
+    <div class="col-md-6 align-self-center">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active align-self-center">
+                <img class="d-block" src="../portfolio/images/grace.png" alt="Firstslide">
+              </div>
+              <div class="carousel-item align-self-center">
+                <img class="d-block" src="../portfolio/images/graceart.png" alt="Secondslide">
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="col-md-6 align-self-center jumbotext">
+    <h1 class>Welcome to Grace Lim</h1>
+    <p class="caption">UX/UI DESIGNER</p>
+    <a class="btn btn-primary btn-md" href="#projects" role="button">About Me!</a>
   </div>
+  </div>
+</div>
+
 
   <hr>
 
 <!-- CARDS -->
-<div class="myWork">
+<div class="projects" id="projects">
     <h1>My Work</h1>
 
 <div class="container">
@@ -56,7 +88,7 @@
 
     <div class="col-md-5 order-md-2 align-self-center">
        <div class="card" style="height: 400px;">
-        <img class="card-img-top" src="http://via.placeholder.com/300x150" alt="Card image cap">
+        <img class="card-img-top" src="../portfolio/images/orange.png" alt="UDoU">
         <div class="card-body">
           <h5 class="card-title">Travel App: UDoU</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -132,6 +164,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
   crossorigin="anonymous"></script>
   <script src="portfolio.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
 
 </body>
 </html>
