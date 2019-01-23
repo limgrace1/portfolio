@@ -34,3 +34,4 @@ $('.carousel-inner').carousel({
   interval: 200
 })
 
+// ANIMATED BUTTON //
