@@ -3,8 +3,8 @@
 .navbar {
     height: 15%;
     width: 100%;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left:55px;
+    padding-right: 55px;
     background-color: white;
     color: black;
     margin-top: 0px;
@@ -24,18 +24,40 @@ img.logo {
     width: 100px;
     height: 80px;
 }
-@media screen and (max-width: 600px) {
+
+
+/* MOBILE NAV */
+.mobilenavbar {
+    color: black;
+}
+
+.navbar-toggler {
+    border: none;
+    color: black;
+}
+
+.navbar-toggler-icon {
+    color: black
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 900px) {
 .logo {
-    justify-content: center;
-    align-content: center;
-    display: block;
+    display: none;
     }
+}
+
+@media screen and (min-width: 900px) {
+.mobilenav {
+    display: none;
+}
 }
 
 /* JUMBOTRON */
 
 .intro {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     height: 550px;
     color: black;
     background-color: white;
@@ -151,7 +173,6 @@ img.logo {
 .contact {
     font-size: 25px;
 }
-
 
 
 /* JAVASCRIPT */
